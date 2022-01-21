@@ -1,6 +1,6 @@
 # 장고 웹 프로그래밍 기초 프로젝트
-[설문조사 웹](https://github.com/Seungjun-bob/django_project/tree/master/polls_project/mysite)
-[게시판 웹]()
+- [설문조사 웹](https://github.com/Seungjun-bob/django_project/tree/master/polls_project/mysite)   
+- [게시판 웹](https://github.com/Seungjun-bob/django_project/tree/master/pybo_project)
 # 0. install guide
 ## 0.1 python install
 python을 [설치](https://www.python.org/downloads/windows/)합니다. 현재 장고 version에서는 python 3.8 이후 버전을 지원하기 때문에 3.8 이후 version 설치를 권장합니다. 설치 이후 cmd 창에서```python --version```
