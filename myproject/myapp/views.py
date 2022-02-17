@@ -8,7 +8,7 @@ topics = [
     {'id':3, 'title':'Model', 'body':'Model is ..'},
 ]
 
-def HTMLTemplate(articleTag):
+def HTMLTemplate(articleTag, id=None):
     global topics
     ol = ''
     for topic in topics:
@@ -22,7 +22,13 @@ def HTMLTemplate(articleTag):
         </ol>
         {articleTag}
         <ul>
-        <a href="/create/">create</a>
+            <li><a href="/create/">create</a></li>
+            <li>
+                <form action="/delete/" moethod="post">
+                    <input type="hidden" name="id" value={id}>
+                    <input type="submit" value="delete">
+                </form>            
+            </li>
         </ul>
     </body>
     </html>
@@ -40,7 +46,7 @@ def read(request, id):
     for topic in topics:
         if topic['id'] == int(id):
             article = f'<h2>{topic["title"]}</h2>{topic["body"]}'
-    return HttpResponse(HTMLTemplate(article))
+    return HttpResponse(HTMLTemplate(article, id))
 
 @csrf_exempt
 def create(request):
@@ -62,3 +68,7 @@ def create(request):
         url = '/read/'+str(nextId)
         nextId = nextId + 1
         return redirect(url)
+
+@csrf_exempt
+def delete(request):
+
