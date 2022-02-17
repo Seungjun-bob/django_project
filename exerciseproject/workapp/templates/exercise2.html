@@ -1,0 +1,24 @@
+{% extends 'basesimple.html' %}
+
+{% block mycontent %}
+  <h1>인터페이스 개발 팀 프로젝트</h1>
+  <hr>
+  {% if memberslist %}
+      <h2>
+        우리팀의 팀원을 소개합니다.
+        <ul>
+        {% for i in memberslist %}
+        <li>{{i}}</li>
+        {% endfor %}
+        </ul>
+      </h2>
+      <img src="/static/images/olaf1.png" width='400'>
+  {% elif msg1 %}
+      <h2>{{msg1}}</h2>
+      <img src="/static/images/olaf2.png" width='400'>
+  {% else %}
+      <h2>{{msg2}}</h2>
+      <img src="/static/images/olaf3.png" width='400'>
+  {% endif %}
+
+{% endblock %}

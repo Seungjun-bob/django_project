@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0a8172c-0a94-4c73-9957-841ca61ae02b" name="Changes" comment="exercise django">
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/templates/exercise1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/studyproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studyproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basetemplates/basesimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/basetemplates/basesimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="258XunallDoNZBA7xLZ6KpI3WsC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0a8172c-0a94-4c73-9957-841ca61ae02b" name="Changes" comment="" />
+      <created>1644909913733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644909913733</updated>
+    </task>
+    <task id="LOCAL-00001" summary="exercise django">
+      <created>1645056248487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645056248487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exercise django" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise django" />
+  </component>
+</project>
