@@ -26,6 +26,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'secondapp',
+    'thirdapp',
+    'forthapp',
+    'fifthapp',
+    'uploadapp',
+    'redirectapp',
+    'visitorapp',
+    'relationapp',
+    'accountapp'
 ]
 
 MIDDLEWARE = [
@@ -114,3 +122,6 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'

@@ -5,31 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a8172c-0a94-4c73-9957-841ca61ae02b" name="Changes" comment="exercise django">
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/exerciseproject/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/templates/exercise1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studyproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studyproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basetemplates/basesimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/basetemplates/basesimple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exerciseproject/workapp/templates/basket1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exerciseproject/workapp/templates/product1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/exam25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/ggmap6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/kkmap7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/queryinput.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondapp/templates/queryoutput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exerciseproject/workapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exerciseproject/workapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../exerciseproject/workapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/secondapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studyproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studyproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studyproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,10 +62,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Seungjun\Desktop\BIGDATA_edu\DJANGOexam\studyproject\accountapp\templates" />
+      <recent name="C:\Users\Seungjun\Desktop\BIGDATA_edu\DJANGOexam\studyproject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Seungjun\Desktop\BIGDATA_edu\DJANGOexam\studyproject" />
+      <recent name="C:\Users\Seungjun\Desktop\BIGDATA_edu\DJANGOexam\studyproject\media" />
+      <recent name="C:\Users\Seungjun\Desktop\BIGDATA_edu\DJANGOexam\studyproject\secondapp\templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,5 +112,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exercise django" />
     <option name="LAST_COMMIT_MESSAGE" value="exercise django" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/uploadapp/views.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

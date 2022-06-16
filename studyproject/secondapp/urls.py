@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
-urlpatterns = {
+
+urlpatterns = [
     path('', views.exam1, name='exam1'),
     path('exam2/', views.exam2),
     path('exam3/', views.exam3),
@@ -18,6 +19,29 @@ urlpatterns = {
     path('exam15/', views.exam15),
     path('exam16/', views.exam16, name='unico'),
     path('exam17/', views.exam17),
-    path('exam18/', views.exam18),
+    path('exam18/', views.exam18, name='exam18'),
     path('exam19/', views.exam19),
-}
+    path('formget/', views.query_form_get),
+    path('formpost/', views.query_form_post),
+    path('querystringproc/', views.querystring_processing, name='qsp'),
+    path('exam20/', views.exam20, name='exam20'),
+    path('exam21/', views.exam21, name='exam21'),
+    path('exam22/', views.exam22, name='exam22'),
+    path('exam23/', views.exam23, name='exam23'),
+    path('exam24/', views.exam24, name='exam24'),
+    path('json1/', views.json1, name='json1'),
+    path('json2/', views.json2, name='json2'),
+    path('ggmap1/', views.ggmap1),
+    path('ggmap2/', views.ggmap2),
+    path('ggmap3/', views.ggmap3),
+    path('ggmap4/', views.ggmap4),
+    path('ggmap5/', views.ggmap5),
+    path('ggmap6/', views.ggmap6),
+    path('kkmap1/', views.kkmap1),
+    path('kkmap2/', views.kkmap2),
+    path('kkmap3/', views.kkmap3),
+    path('kkmap4/', views.kkmap4),
+    path('kkmap5/', views.kkmap5),
+    path('kkmap6/', views.kkmap6),
+    path('kkmap7/', views.kkmap7),
+]

@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 import random
+from datetime import datetime
 
 def exercise1(request):
     import datetime
@@ -42,3 +43,15 @@ def exercise3(request):
             }
         }
     return render(request, 'exercise3.html', context)
+
+def product1(request):
+    return render(request, 'product1.html')
+
+def basket1(request):
+    pid = request.GET.get('pid')
+    src = "/static/images/"+pid+".jpg"
+    dt = datetime.now()
+    context = {
+        'current_date':dt,
+        'src':src}
+    return render(request, 'basket1.html', context)
